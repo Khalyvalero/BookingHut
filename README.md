@@ -1,11 +1,11 @@
-Fyyur
+BookingHut
 -----
 
 ## Introduction
 
-Fyyur is a musical venue and artist booking site that facilitates the discovery and bookings of shows between local performing artists and venues. This site lets you list new artists and venues, discover them, and list shows with artists as a venue owner.
+BookingHut is a musical venue and artist booking site that facilitates the discovery and bookings of shows between local performing artists and venues. This site lets you list new artists and venues, discover them, and list shows with artists as a venue owner.
 
-Your job is to build out the data models to power the API endpoints for the Fyyur site by connecting to a PostgreSQL database for storing, querying, and creating information about artists and venues on Fyyur.
+Your job is to build out the data models to power the API endpoints for the BookingHut site by connecting to a PostgreSQL database for storing, querying, and creating information about artists and venues on BookingHut.
 
 ## Overview
 
@@ -15,7 +15,7 @@ This app was nearly complete. It was only missing one thing… real data! While 
 * searching for venues and artists.
 * learning more about a specific artist or venue.
 
-We want Fyyur to be the next new platform that artists and musical venues can use to find each other, and discover new music shows. Let's make that happen!
+We want BookingHut to be the next new platform that artists and musical venues can use to find each other, and discover new music shows. Let's make that happen!
 
 ## Tech Stack (Dependencies)
 
@@ -60,11 +60,11 @@ npm install bootstrap@3
   ├── forms.py *** Your forms
   ├── requirements.txt *** The dependencies we need to install with "pip3 install -r requirements.txt"
   ├── static
-  │   ├── css 
-  │   ├── font
-  │   ├── ico
-  │   ├── img
-  │   └── js
+  │   ├── css 
+  │   ├── font
+  │   ├── ico
+  │   ├── img
+  │   └── js
   └── templates
       ├── errors
       ├── forms
@@ -111,7 +111,7 @@ Acceptance Criteria
   * Past shows versus Upcoming shows should be distinguished in Venue and Artist pages.
   * A user should be able to click on the venue for an upcoming show in the Artist's page, and on that Venue's page, see the same show in the Venue Page's upcoming shows section.
 4. As a fellow developer on this application, I should be able to run `flask db migrate`, and have my local database (once set up and created) be populated with the right tables to run this application and have it interact with my local postgres server, serving the application's needs completely with real data I can seed my local database with.
-  * The models should be completed (see TODOs in the `Models` section of `app.py`) and model the objects used throughout Fyyur.
+  * The models should be completed (see TODOs in the `Models` section of `app.py`) and model the objects used throughout BookingHut.
   * Define the models in a different file to follow [Separation of Concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) design principles. You can refactor the models to a new file, such as `models.py`.
   * The right _type_ of relationship and parent-child dynamics between models should be accurately identified and fit the needs of this particular application.
   * The relationship between the models should be accurately configured, and referential integrity amongst the models should be preserved.
@@ -123,7 +123,7 @@ I SATISFIED ALL THE CRITERIA REQUIRED AND PASSED THE PROJECT
 1. **Download the project code locally**
 ```
 git clone https://github.com/udacity/FSND.git
-cd FSND/projects/01_fyyur/starter_code 
+cd FSND/projects/01_BookingHut/starter_code 
 ```
 
 2. **Create an empty repository in your Github account online. To change the remote repository path in your local repository, use the commands below:**
